@@ -20,7 +20,7 @@ def test_log():
     movies = ["Deadpool", "Rise of the Skywalker"]
     console.log("Hello from", console, "!")
     console.log("Another log")
-    console.log(test_data, log_locals=True)
+    console.log(test_data, log_locals=False)
 
 
 class Dog:
